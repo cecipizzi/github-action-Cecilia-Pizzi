@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Ejecutar Action
-        uses: ./
+        uses: ceciliapizzi/github-action-Cecilia-Pizzi
         with:
-          nombre: GitHub Actions
+          nombre: Cecilia
