@@ -1,12 +1,16 @@
 name: Test Action
+
 on:
   workflow_dispatch:
+
 jobs:
   prueba:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - name: Ejecutar Action
-        uses: ceciliapizzi/github-action-Cecilia-Pizzi
+        uses: ./
         with:
           nombre: Cecilia
